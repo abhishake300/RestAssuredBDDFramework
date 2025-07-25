@@ -1,0 +1,135 @@
+02:10:54.575 [main] INFO  com.api.listeners.TestListener - Test Suite Started
+02:10:54.629 [main] INFO  com.api.listeners.TestListener - Started!!loginTest
+02:10:54.629 [main] INFO  com.api.listeners.TestListener - Description!!verify if login api is working
+02:10:56.999 [main] ERROR com.api.listeners.TestListener - Failed!!loginTest
+02:10:57.000 [main] INFO  com.api.listeners.TestListener - Description!!verify if login api is working
+02:10:57.049 [main] INFO  com.api.listeners.TestListener - Test Suite Completed
+02:12:25.740 [main] INFO  com.api.listeners.TestListener - Test Suite Started   
+02:12:25.786 [main] INFO  com.api.listeners.TestListener - Started!!   loginTest
+02:12:25.786 [main] INFO  com.api.listeners.TestListener - Description!!   Verify if Api is running
+02:12:28.056 [main] ERROR com.api.listeners.TestListener - Failed!!   loginTest
+02:12:28.100 [main] INFO  com.api.listeners.TestListener - Test Suite Completed   
+02:13:46.136 [main] INFO  com.api.listeners.TestListener - Test Suite Started   
+02:13:46.182 [main] INFO  com.api.listeners.TestListener - Started!!   depositTransactionTest
+02:13:46.182 [main] INFO  com.api.listeners.TestListener - Description!!   
+02:13:48.503 [main] INFO  com.api.listeners.TestListener - Passed!!   depositTransactionTest
+02:13:48.503 [main] INFO  com.api.listeners.TestListener - Description!!   
+02:13:48.535 [main] INFO  com.api.listeners.TestListener - Test Suite Completed   
+02:42:48.112 [main] INFO  com.api.listeners.TestListener - Test Suite Started   
+02:42:48.157 [main] INFO  com.api.listeners.TestListener - Started!!   depositTransactionTest
+02:42:48.157 [main] INFO  com.api.listeners.TestListener - Description!!   
+02:42:49.717 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+02:42:49.717 [main] INFO  com.api.filters.LoggingFilter - Request HeaderAccept=*/*
+Content-Type=application/json
+02:42:49.718 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"abhi300","password":"abhi300"}
+02:42:50.397 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+02:42:50.398 [main] INFO  com.api.filters.LoggingFilter - Request HeaderVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 24 Jul 2025 21:12:49 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+02:42:50.398 [main] INFO  com.api.filters.LoggingFilter - Request Bodyio.restassured.internal.RestAssuredResponseImpl@6e829e50
+02:42:50.482 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+02:42:50.482 [main] INFO  com.api.filters.LoggingFilter - Request HeaderAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhYmhpMzAwIiwiaWF0IjoxNzUzMzkxNTY5LCJleHAiOjE3NTMzOTUxNjl9.js8c_XE05H6poXzJflEpCNA2ugbMBW2KyoLrKYKm470
+Accept=*/*
+Content-Type=application/json
+02:42:50.482 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"accountNumber":"3369048228","amount":100,"description":"deposit"}
+02:42:50.586 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+02:42:50.586 [main] INFO  com.api.filters.LoggingFilter - Request HeaderVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 24 Jul 2025 21:12:50 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+02:42:50.586 [main] INFO  com.api.filters.LoggingFilter - Request Bodyio.restassured.internal.RestAssuredResponseImpl@f238e4f
+02:42:50.635 [main] INFO  com.api.listeners.TestListener - Passed!!   depositTransactionTest
+02:42:50.636 [main] INFO  com.api.listeners.TestListener - Description!!   
+02:42:50.665 [main] INFO  com.api.listeners.TestListener - Test Suite Completed   
+03:04:30.490 [main] INFO  com.api.listeners.TestListener - Test Suite Started   
+03:04:30.537 [main] INFO  com.api.listeners.TestListener - Started!!   loginTest
+03:04:30.537 [main] INFO  com.api.listeners.TestListener - Description!!   Verify if Api is running
+03:04:32.047 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+03:04:32.047 [main] INFO  com.api.filters.LoggingFilter - Request HeaderAccept=*/*
+Content-Type=application/json
+03:04:32.047 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"abhi300","password":"Push@1234"}
+03:04:32.666 [main] INFO  com.api.filters.LoggingFilter - Status Code:401
+03:04:32.667 [main] INFO  com.api.filters.LoggingFilter - Response HeaderVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Thu, 24 Jul 2025 21:34:32 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+03:04:32.667 [main] INFO  com.api.filters.LoggingFilter - Response Bodyio.restassured.internal.RestAssuredResponseImpl@83bb0f
+03:04:32.740 [main] ERROR com.api.listeners.TestListener - Failed!!   loginTest
+03:04:32.777 [main] INFO  com.api.listeners.TestListener - Test Suite Completed   
+22:52:25.543 [main] INFO  com.api.listeners.TestListener - Test Suite Started   
+22:52:25.583 [main] INFO  com.api.listeners.TestListener - Started!!   loginTest
+22:52:25.583 [main] INFO  com.api.listeners.TestListener - Description!!   Verify if Api is running
+22:52:26.928 [main] INFO  com.api.filters.LoggingFilter - BASE URI:http://64.227.160.186:8080
+22:52:26.929 [main] INFO  com.api.filters.LoggingFilter - Request HeaderAccept=*/*
+Content-Type=application/json
+22:52:26.929 [main] INFO  com.api.filters.LoggingFilter - Request Payload{"username":"abhi300","password":"abhi300"}
+22:52:27.535 [main] INFO  com.api.filters.LoggingFilter - Status Code:200
+22:52:27.535 [main] INFO  com.api.filters.LoggingFilter - Response HeaderVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Fri, 25 Jul 2025 17:22:26 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+22:52:27.535 [main] INFO  com.api.filters.LoggingFilter - Response Bodyio.restassured.internal.RestAssuredResponseImpl@2eda072
+22:52:27.608 [main] INFO  com.api.listeners.TestListener - Passed!!   loginTest
+22:52:27.608 [main] INFO  com.api.listeners.TestListener - Description!!   Verify if Api is running
+22:52:27.632 [main] INFO  com.api.listeners.TestListener - Test Suite Completed   
