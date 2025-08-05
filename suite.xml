@@ -6,6 +6,24 @@
       <class name="com.qa.rest.test.loginApiTest4">
         
       </class> 
+      <class name="com.qa.rest.test.AccountCreationTest">
+
+			</class>
+			<class name="com.qa.rest.test.DepositTransactionTest">
+
+			</class>
+			<class name="com.qa.rest.test.ForgotPasswordTest">
+
+			</class>
+			<class name="com.qa.rest.test.GetProfileRequestTest">
+
+			</class>
+			<class name="com.qa.rest.test.UpdateProfileTest">
+
+			</class>
+			<class name="com.qa.rest.test.UserTransactionTest">
+
+			</class>
     </classes>
   </test>
 </suite>
